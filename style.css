@@ -136,7 +136,6 @@ form .submit:hover {
 }
 
 .container {
-    border: 1px solid black;
     width: 550px;
     background: rgba(0,0,0,0.2);
     padding: 40px;
