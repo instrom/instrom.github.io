@@ -11,7 +11,6 @@ html, body {
 
 body {
     min-width: 1000x;
-    min-height: 1000px;
 }
 
 
@@ -64,8 +63,8 @@ body {
 .myname {
     width: 1000px;
     min-width: 150px;
-    margin-left: 400px;
     text-align: center;
+    margin: auto;
 }
 
 .myname h1 {
