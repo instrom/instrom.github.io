@@ -6,26 +6,38 @@
 html, body {
     width: 100%;
     height: 100%;
+    overflow-y: scroll;
 }
+
+body {
+    min-width: 1000x;
+    min-height: 1000px;
+}
+
+
 
 .background {
     background-image: url("./home-background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: absolute;
     height: 100%;
     width: 100%;
     overflow: auto;
     white-space: nowrap;
+    
 }
 
 .navigation {
     float: right;
     list-style: none;
-    margin-top: 10px;
-    margin-right: 20px;
-    padding-top: 50px;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
     padding-right: 20px;
+    max-width: 100%;
+    padding-top: 30px;
+    z-index: 3;
 }
 
 .navigation li{
@@ -49,10 +61,10 @@ html, body {
 }
 
 .myname {
-    position: absolute;
     width: 1000px;
+    min-width: 150px;
     margin-left: 400px;
-    justify-content: center;
+    text-align: center;
 }
 
 .myname h1 {
@@ -77,12 +89,6 @@ html, body {
     height: 150px;
 }
 
-,contact-title {
-    position: absolute;
-    width: 1000px;
-    margin-left: 400px;
-    justify-content: center;
-}
 
 .contact-title h3 {
     color: whitesmoke;
