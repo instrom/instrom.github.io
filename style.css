@@ -292,3 +292,77 @@ header {
     font-size: 30px;
 }
 
+/**************** projects ********/
+
+.myprojects {
+    text-align: center;
+    width: 100%;
+}
+
+.myprojects:after {
+    display: block;
+    clear: both;
+    content: '';
+    padding-bottom: 50px;
+}
+
+.myprojects h2 {
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Oswald', monospace;
+}
+
+
+.myprojects .projectleft, .myprojects .projectcenter, .myprojects .projectright {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+.myprojects .projectleft {
+    margin-left: 2%;
+    margin-right: 1%;
+    background-image: url(./img_tech_robotfingers-500x300.jpg);
+    background-size: cover;
+}
+
+.myprojects .projectcenter {
+    margin-left: 1%;
+    margin-right: 1%;
+    background-image: url(./The-Microservices-Approach-and-How-It-Beats-Monolithics.jpeg);
+    background-size: cover;
+}
+
+.myprojects .projectright {
+    margin-right: 2%;
+    margin-left: 2%;
+    background-image: url(./shutterstock_324643307-500x300.jpg);
+    background-size: cover;
+}
+
+.myprojects .overlay {
+    padding-top : 310px;
+}
+
+.myprojects .overlay:hover {
+    cursor: pointer;
+    transition: all 1s ease;
+    padding-top : 130px;
+}
+
+.overlay a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border: 1 px solid white;
+}
+
